@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Comverse</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="reset.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="comverse.js"></script>
+	</head>
+	<body>
+		<script type="text/javascript">
+<!--
+    function toggle_visibility(id) {
+       var e = document.getElementById(id);
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+//-->
+</script>		
+		<header>
+			<div class="header-container">
+				<ul class="login clearfix">
+					<li class="login-list"><a href="#">EN</a></li>
+					<li class="login-list"><a href="#">Customer login</a></li>
+				</ul>
+				<nav class="clearfix">
+					<!--<a class="menu-link"  onclick="toggle_visibility('menu-show');" href="#menu">
+						<img class="menu-img" src="img/hamburger-icon.png" alt="menu">
+					</a> -->
+					<a href="#" class="nav-button">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</a>
+					<a class="logo" href="#">
+					<img class="big-logo" src="img/comverse-logo.png" alt="Comverse Logo">
+					</a>
+					<ul id="menu-show" class="header-links">
+						<li class="header-links-li">
+							<a href="#">Your needs</a>
+						</li>
+						<li class="header-links-li">
+							<a href="#">our portfolio</a>
+						</li>
+						<li class="header-links-li">
+							<a href="#">news & media</a>
+						</li>
+						<li class="header-links-li">
+							<a href="#">about comverse</a>
+						</li>
+					</ul>
+						<div onclick="toggle_visibility('search-show');"  class="search-bg">
+						<button type="submit" class="search-submit" value=""></button>
+						<div class="input-bg">
+							<input type="text" class="search-input" placeholder="Search">
+						</div>
+					</div>
+					<ul class="phone-header-links">
+						<li class="phone-header-links-li">
+							<a href="#">Your needs</a>
+						</li>
+						<li class="phone-header-links-li">
+							<a href="#">our portfolio</a>
+						</li>
+						<li class="phone-header-links-li">
+							<a href="#">news & media</a>
+						</li>
+						<li class="phone-header-links-li">
+							<a href="#">about comverse</a>
+						</li>
+					</ul>
+						
+					</ul>
+				</nav>
+				<div id="search-show" class="search-phone">
+					<input type="text" class="search-phone-input" placeholder="Search">
+				</div>
+			
+				
+			<!--	<a href="#">
+					<img class="phone-search-button" src="img/searchBtnMobile.png" alt="search" onclick="toggle_visibility('search-show');">
+				</a>
+			-->
+			<!--nav-button used for collapsed toggle menu-->
+				
+				</div>
+			</header>
+		<section class="highlights">
+			<div class="highlights-container clearfix">
+				<ul class="highlights-nav">
+					<li>
+						<a href="#">Text 1</a>
+					</li>
+					<li>
+						<a href="#">Text 2</a>
+					</li>
+					<li>
+						<a href="#">Text 3</a>
+					</li>
+					<li>
+						<a href="#">Text 4</a>
+					</li>
+				</ul>
+				<div class="highlights-header-wrap">
+					<h2 class="highlights-header">
+						<em>Free</em>
+						Your Markets From <br>IT
+						<em>Complexity</em>
+					</h2>
+						<p class="highlights-paragraph">
+							Comverse Policy Studio
+							<br>
+							<em>1st</em>
+							Ever Marketing-Oriented Policy Tool
+						</p>
+				</div>
+				<a class="highlight-more button" href="#">Learn More<span class="link-arrow"></span></a>
+				<ul class="highlights-list clearfix">
+						<li class="highlight pink-bg">
+							<a href="#">	
+								<span>Comverse Is Value-Added Service Global Market Leader</span>
+								<span class="readmore">Read More</span>
+							</a>
+						</li>	
+					<li class="highlight green-bg">
+						<a href="#">
+							<span>Managed Services World Congress September 18-19 Berlin, Germany</span>
+						</a>
+						<a href="#">
+							<span class="readmore">Read More</span>
+						</a>
+					</li>
+					<li class="highlight orange-bg">
+						<a href="#">
+							<span>Comverse: Enabling a world of Conected Possibilities</span>
+						</a>
+						<a href="#">
+							<span class="readmore">Read More</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		
+		<section class="capabillities">
+			<div class="capabillities-container">
+				<h2 class="capabillities-header regular-heading">What can we do for you?</h2>
+				<ul class="capabillities-list">
+					<li class="capabillity">
+							<a href="#">
+								<div class="image-placer">
+									<img class="regular-img" src="img/solution_icon_smart-money.png" alt="Data Monetization">
+									<img class="hover-img" src="img/solution_icon_smart-money_hover.png" alt="Data Monetization">
+								</div>
+								<span class="ability-links">Data Monetization</span>
+							</a>
+					</li>
+					<li class="capabillity">
+						<a href="#">
+							<div class="image-placer">
+								<img class="regular-img" src="img/solution_icon_personal.png" alt="Machine to Machine">
+								<img class="hover-img" src="img/solution_icon_personal_hover.png" alt="Machine to Machine">
+								</div>
+							<span class="ability-links">Machine to machine<br>(M2M)</span>
+						</a>
+					</li>
+					<li class="capabillity">
+						<a href="#">
+							<div class="image-placer">
+								<img class="regular-img" src="img/solution_icon_optimize-efficnt.png" alt="Over-the-top">
+								<img class="hover-img" src="img/solution_icon_optimize-efficnt_hover.png" alt="Over-the-top">
+								</div>
+							<span class="ability-links">Over-the-top</span>
+						</a>
+					</li>
+					<li class="capabillity">
+						<a href="#">
+							<div class="image-placer">
+								<img class="regular-img" src="img/solution_icon_biz-analitics.png" alt="Cloud computing">
+								<img class="hover-img" src="img/solution_icon_biz-analitics_hover.png" alt="Cloud computing">
+							</div>
+							<span class="ability-links">Cloud computing</span>
+						</a>
+					</li>
+					<li class="capabillity">
+						<a class="pic-location" href="#">
+							<div class="image-placer">
+								<img class="regular-img" src="img/solution_icon_diti-cx.png" alt="Managed services">
+								<img class="hover-img" src="img/solution_icon_diti-cx_hover.png" alt="Managed services">
+							</div>
+							<span class="ability-links">Managed services</span>
+						</a>
+					</li>
+					<li class="capabillity">
+						<a href="#">
+							<div class="image-placer">
+								<img class="regular-img" src="img/solution_icon_biz-transform.png" alt="Social media">
+								<img class="hover-img" src="img/solution_icon_biz-transform_hover.png" alt="Social media">
+							</div>
+							<span class="ability-links">Social media</span>
+						</a>
+					</li>
+				</ul>
+				<a href="#" class=" solutions-button button">See all of our solutions<span class="solution-arrow"></span></a>	
+			</div>
+		</section>
+
+		<section class="news">
+			<div class="news-container">
+				<h2 class="news-header regular-heading">What's happening at Comverse?</h2>
+				<ul class="news-list">
+					<li class="news-list-li">
+						<h3 class="events-header">News</h3>
+						<div class="news-content-wrapper">	
+						<a href="#">
+							<div class="news-date">
+								<span class="news-date-number">04</span>
+								<span class="news-date-month">SEP</span>
+							</div>
+							<p class="news-content-p">Comverse Regains Lead In Convergent Charging Market Regains Lead In</p>
+						</a>
+						</div>
+						<a class="news-link for-news" href="#">
+							<!--<img src="img/eventListIconNews.png" alt="All News">-->All News
+						</a>
+					</li>
+					<li class="news-list-li">
+						<h3 class="events-header">Events</h3>
+						<div class="news-content-wrapper">	
+							<a href="#">
+								<div class="news-date">
+									<span class="news-date-number">04</span>
+									<span class="news-date-month">SEP</span>
+								</div>
+								<p class="news-content-p">Comverse Regains Lead In Convergent Charging Market Regains Lead In</p>
+							</a>
+						</div>
+						<a class="news-link for-events" href="#">
+							<!--<img src="img/eventListIconEvents.png" alt="All Events">-->All Events
+						</a>
+					</li>
+					<li class="news-list-li">
+						<h3 class="events-header">Press Releases</h3>
+						<div class="news-content-wrapper">	
+							<a href="#">
+								<div class="news-date">
+									<span class="news-date-number">04</span>
+									<span class="news-date-month">SEP</span>
+								</div>
+								<p class="news-content-p">Comverse Regains Lead In Convergent Charging Market Regains Lead In</p>
+							</a>
+						</div>
+						<a class="news-link for-press" href="#">
+							<!--<img src="img/eventListIconPress.png" alt="All Events">-->All Events
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="testimonials">
+			<div class="testimonials-container"> 
+				<h2 class="regular-heading">success stories</h2>
+				<ul class="testimonials-group is-wide">
+					<li class="testimonial is-large">
+						<div class="testimonial-animation-bg">
+							<p class="testimonials-hover-p">Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are... working to evolve better for</p>
+						</div>
+						<div class="animation-wrapper">	
+							<div class="person-quote">
+								<img class="person-img" src="img/sergey.png" alt="Sergey Korotych">
+								<p class="person-testimonial">We have very good and very warm relations with Comverse. We always achievet</p>
+							</div>
+							<span class="border-span"></span>
+							<div class="person-company-details">
+								<a href="#">Sergey Korotych</a>
+								<br>
+								<span class="person-role">Deputy CTO, 3 Mob Ukraine</span>
+								<img src="img/3mob.png">
+							</div>
+						</div>
+						</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">	
+							<a href="#">
+								<img class="testimonial-logo-img" src="img/cycle30.png" alt="Cycle">
+							</a>
+						</div>
+					</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">	
+								<img class="testimonial-logo-img" src="img/bull.png" alt="Bull">
+							</a>
+						</div>
+					</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">
+								<img class="testimonial-logo-img" src="img/gemplus.png" alt="Gempus">
+							</a>
+						</div>
+					</li>
+				</ul>
+				<ul class="testimonials-group is-wide testimonial-position-changer">
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">
+								<img class="testimonial-logo-img" src="img/mtc.png" alt="MTC">
+							</a>
+					</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">
+								<img class="testimonial-logo-img" src="img/cable-wireless.png" alt="Cable Wireless">
+							</a>
+						</div>
+					</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">
+								<img class="trilogy-fix" src="img/trilogy.png" alt="Trilogy">
+							</a>
+						</div>
+
+					</li>
+					<li class="testimonial is-large">
+						<div class="testimonial-animation-bg">
+							<p class="testimonials-hover-p">Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are... working to evolve better for</p>
+						</div>
+						<div class="animation-wrapper">
+							<div class="person-quote">
+								<img class="person-img" src="img/adale.png" alt="Adele Kehassan">
+								<p class="person-testimonial testimonials-small-font">Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are...</p>
+							</div>
+							<span class="border-span"></span>
+							<div class="person-company-details">
+								<a class="clearfix" href="#">Adale Kehassan</a>
+								<br>
+								<span class="person-role">CIO of Multi-links</span>
+								<img src="img/multilinks.png">
+							</div>
+						</div>
+					</li>
+				</ul>
+				<ul class="testimonials-group is-narrow">
+					<li class="testimonial is-large">
+						<div class="testimonial-animation-bg">
+							<p class="testimonials-hover-p">Comverse has demonstrated that they are partners, not just suppliers, because they understand our needs, our situations; together we are... working to evolve better for</p>
+						</div>
+						<div class="animation-wrapper">
+							<div class="person-quote">
+								<p class="person-testimonial">Comverse has been able to fully deliver what we want and we have  peers... </p>
+							</div>
+							<span class="border-span"></span>
+								<div class="person-company-details">
+									<a href="#">ravishanker</a>
+									<span class="person-role">Tata Sky CIO N. </span>
+									<img src="img/tatasky.png">
+								</div>
+						</div>
+					</li>
+					<li class="testimonial is-small">
+						<div class="testimonial-play-img-wrapper">
+							<a href="#">
+								<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg">
+							</a>
+						</div>
+						<div class="animation-wrapper">
+							<a href="#">
+								<img class="testimonial-logo-img" src="img/hp.png" alt="hp">
+							</a>
+						</div>
+					</li>
+						<li class="testimonial is-small">
+							<div class="testimonial-play-img-wrapper">
+								<a href="#">
+									<img class="animation-play-img" src="img/logos_generic_2nd_side_cut_02_w108px_x_h95px.jpg" alt="HP">
+								</a>
+							</div>
+							<div class="animation-wrapper">
+								<a href="#">
+									<img class="testimonial-logo-img" src="img/atos.png" alt="Atos">
+								</a>
+
+							</div>	
+
+						</li>
+				</ul>
+				<div class="center">	
+					<a class="button all-solutions-link" href="#">
+					All 256 Success Stories<span class="solution-arrow"></span></a>
+				</div>
+			</div>
+		</section>
+		<footer class="clearfix">
+			<div class="footer-container clearfix">
+				<div class="margin-remover">
+					<div class="footer-lists-container is-wide">
+						<h4 class="footer-list-header">Key Solutions</h4>
+						<ul class="footer-list">
+							<li class="footer-list-li">
+								<a href="#">Monetizing Data</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Over the Top (OTT)</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Machine To Machine (M2M)</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Cloud Computing</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Managed Services</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Costumer Experience Management</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Rich Communication Suite (RCS)</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Social Media</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">4G/LTE</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-lists-container is-wide">
+						<h4 class="footer-list-header">Products & Services</h4>
+						<ul class="footer-list">
+							<li class="footer-list-li">
+								<a href="#">Billing</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">VAS</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Mobile Internet</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Global Services</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">Training Services</a>
+							</li>		
+						</ul>
+					</div>
+					<div class="footer-lists-container is-wide">
+						<h4 class="footer-list-header">Company</h4>
+						<ul class="footer-list">
+							<li class="footer-list-li">
+								<a href="#">executive profiles</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">clients</a>
+							</li>
+
+							<li class="footer-list-li">
+								<a href="#">investors</a>
+							</li>
+
+							<li class="footer-list-li">
+								<a href="#">partners</a>
+							</li>
+
+							<li class="footer-list-li">
+								<a href="#">corporate responsibillity</a>
+							</li>
+
+							<li class="footer-list-li">
+								<a href="#">industry involvement</a>
+							</li>
+							<li class="footer-list-li">
+								<a href="#">careers</a>
+							</li>
+						</ul>
+					</div>
+					<div class="footer-lists-container is-narrow">
+						<h4 class="footer-blog-header">Latest Blog Posts</h4>
+						<span class="subscribe-date">18<br> July</span>
+						<p class="blog-post">Comverse Regains Lead in Convergent Charging Market</p>
+						<span class="border-span"></span>
+						<h4 class="footer-blog-header subscribe-header">Subscribe to Comverse</h4>
+							<div class="subscribe-mail-bg">
+								<form method="POST" action="save_data">
+								<button class="submit-button" type="submit">sign up</button>
+									<input class="submit-mail" type="text" name="email">
+								</form>
+							</div>
+												
+								</form>
+						<ul class="social-links-list">
+							<li class="social-link">
+								<a href="http://www.youtube.com">
+									<img class="regular-img" src="img/socialMenuIcon-youtube.png" alt="YouTube">
+									<img class="hover-img" src="img/socialMenuIcon-youtube_hover.png" alt="YouTube">
+								</a>
+							</li>
+							<li class="social-link">
+								<a href="http://www.twitter.com">
+									<img class="regular-img" src="img/socialMenuIcon-twitter.png" alt="Twitter">
+									<img class="hover-img" src="img/socialMenuIcon-twitter_hover.png" alt="Twitter">
+								</a>
+							</li>
+							<li class="social-link">
+								<a href="http://www.linkedin.com">
+									<img class="regular-img" src="img/socialMenuIcon-linkdin.png" alt="LinkedIn">
+									<img class="hover-img" src="img/socialMenuIcon-linkdin_hover.png" alt="LinkedIn">
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<ul class="mobile-footer">
+				<li class="mobile-footer-links">
+					<a class="block-links spacing mobile-footer-link" href="#">
+						Contact Us
+					</a>
+				</li>
+				<li class="mobile-footer-links">
+					<a class="block-links spacing mobile-footer-link" href="#">
+						Subscribe to Comverse News
+					</a>
+				</li>
+				<li class="mobile-footer-links spacing">
+					<span class="visit-text">Visit us on:</span>
+					<a class="social-sites" href="http://www.linkedin.com">
+						<img class="regular-img" src="img/socialMenuIcon-linkdin.png" alt="LinkedIn">
+						<img class="hover-img" src="img/socialMenuIcon-linkdin_hover.png" alt="LinkedIn">
+					</a>
+					<a class="social-sites" href="http://www.youtube.com">
+						<img class="regular-img" src="img/socialMenuIcon-youtube.png" alt="YouTube">
+						<img class="hover-img" src="img/socialMenuIcon-youtube_hover.png" alt="YouTube">
+					</a>
+					<a class="social-sites" href="http://www.twitter.com">
+						<img class="regular-img" src="img/socialMenuIcon-twitter.png" alt="Twitter">
+						<img class="hover-img" src="img/socialMenuIcon-twitter_hover.png" alt="Twitter">
+					</a>
+				</li>
+				<li class="mobile-footer-links spacing">
+					<span class="footer-language">Change language:</span> 
+					<div class="language-dropdown">	
+						<label>
+							<select class="language-select">
+							    <option class="language-option" selected> English </option>
+							    <option class="language-option">Hebrew</option>
+							    <option class="language-option">Russian</option>
+							</select>
+						</label>
+					</div>
+				</li>
+				<li class="copyright-li">
+					<span class="copyright">Copyright © 2012 Comverse, Inc</span>
+					<a href="#">Privacy policy</a>
+					<a href="#">Sitemap</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+
+</html>

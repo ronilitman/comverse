@@ -1,0 +1,217 @@
+/*Fonts ---------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+/*Fonts ---------------------------------- */
+body {
+	font-family: 'Open Sans', Sans;
+}
+/*Header ------------------------------------*/
+@media screen and (max-width: 767px) {
+header {
+	width: 100%;
+	background: white;
+	display: block;
+}
+
+.header-container {
+	display: block;
+	text-align: center;
+	padding: 10px;
+	position: relative;
+	
+}
+
+nav {
+	display: inline;
+	color: #585951;
+}
+.login {
+	display: none;
+}
+
+.logo {
+	text-align: center;
+}
+.big-logo {
+	display: none;
+}
+
+.menu-img {
+    border: 1px solid #d9d9d9;
+    float: left;
+    padding: 10px 7px;
+    border-radius: 5px;
+    background: #d9d9d9;
+}
+
+.phone-search-button {
+	border: 1px solid #d9d9d9;
+    float: right;
+    padding: 8px 7px;
+    border-radius: 5px;
+    background: #d9d9d9;
+}
+
+.header-links {
+	position: absolute;
+	display: none;
+	width: 100%;
+	top: 63px;
+    left: -1px;
+    text-align: left;
+	
+}
+
+.header-links-li {
+	padding: 5px;
+	background: lightgray;
+	height: 30px;
+	width: 100%;
+	border-top: 1px solid #dbdbdb;
+
+}
+
+.header-links-li:hover {
+	background: #fcfcfc;
+    box-shadow: -5px 9px 8px rgba(0,0,0,0.4);
+    position: relative;
+}
+
+.header-links-li:hover a {
+	color: #3399cc;
+}
+
+.header-links-li a {
+	text-decoration: none;
+	color: #585951;
+    background: url("img/navCollapseArrowRight.png") no-repeat scroll 11px center;
+    padding: 0 25px;
+    display: block;
+    text-transform: uppercase;
+
+}
+
+
+.highlights-nav {
+	display: none;
+}
+
+.clearfix:after {
+	display: block;
+	content: '';
+	clear: both;
+}
+
+.menu-link:hover  ~.header-links{
+
+}
+
+.phone-search {
+
+	width: 100%;
+   	position: absolute;
+ 	background: #fff;
+    height: 48px;
+    padding-left: 10px;
+    padding-right: 22px;
+    left: -1px;
+    top: 63px;
+    display: none;
+
+}
+
+.phone-search-input {
+    width: 100%;
+    position: relative;
+    top: 9px;
+    height: 26px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #D1D1D1;
+    padding: 0 5px;
+}
+
+}
+/*ENDING OF SMALL SCREEN-----------------*/
+@media screen and (min-width: 768px) {
+
+.menu-link , .phone-search-button , .phone-search {
+	display: none;
+}
+
+.big-logo {
+	display: none;
+}
+
+.login-list {
+display: inline-block;
+position: relative;
+padding: 0 7px;
+}
+
+.login-list a {
+	text-decoration: none;
+	color: #3C3C3C;
+}
+
+.login-list + .login-list:before{
+ 	content: "";
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #3C3C3C, transparent);
+    position: absolute;
+    left: -2px;
+    top: 0;
+
+}
+.header-container {
+	width: 90%;
+	margin: 0 auto;
+	position: relative;	
+	border: 1px solid red;
+}
+
+.header-links {
+}
+
+
+
+.header-links-li {
+	position: relative;
+	margin: 0;
+	padding: 0 8px;
+	display: inline-block;
+	
+
+}
+
+.header-links-li + .header-links-li:before {
+ 	content: "";
+    width: 1px;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent, #3C3C3C, transparent);
+    position: absolute;
+    left: -2px;
+    top: 0;
+}
+
+.header-links-li a {
+	color: #3C3C3C;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.logo {
+	float: left;
+}
+.clearfix {
+	content: '';
+	display: block;
+	clear: both;
+}
+.highlights-nav {
+	display: none;
+}
+.highlights {
+	display: block;
+}
+
+}/*Media query closing header*/
